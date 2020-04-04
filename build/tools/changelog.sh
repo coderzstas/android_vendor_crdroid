@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-export Changelog=Changelog.txt
+export Changelog=$PATH:Changelog.txt
 
 if [ -f $Changelog ];
 then
