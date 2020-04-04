@@ -53,6 +53,6 @@ done
 
 sed -i 's/project/   */g' $Changelog
 
-cp $Changelog $OUT/system/etc/
-cp $Changelog $OUT/
+cp $Changelog $PRODUCT_OUT/system/etc/
+cp $Changelog $PRODUCT_OUT/
 rm $Changelog
